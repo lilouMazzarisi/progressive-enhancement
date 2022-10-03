@@ -23,38 +23,24 @@ Tags are used to indicate the semantic function of a portion of content in "bloc
 
 *Syntax example :*
 *<p>This is a paragraph (hence the P letter).</p>*
-+----------------------------+
-| h1 | Heading | 
-+----------------------------+
-| h2 | Subheading | 
-+----------------------------+
-| section | section is a thematic grouping of content. A general rule is that the section element is appropriate only if the element’s contents would be listed explicitly in the document’s outline.
-+----------------------------+
-| blockquote | represents a section that is quoted from another source.|
-+----------------------------+
-q | phrasing content quoted from another source.|
-+----------------------------+
-img | picture |
-+----------------------------+
-p | paragraph  |
-+----------------------------+
-figure | The figure element represents some flow content. Typically referenced as a single unit from the main flow of the document.|
-+----------------------------+
-caption | the title of the table that is its parent, if it has a parent and that is a table element. |
-+----------------------------+
-table | The table element represents data with more than one dimension, in the form of a table. Tables must not be used as layout aids. |
-+----------------------------+
-th | table head = name/category of the row or column |
-+----------------------------+
-tr | table row |
-+----------------------------+
-td | table data = content in the table  |
-+----------------------------+
-ul | unordered list with dots|
-+----------------------------+
-ol | orderd list with # |
-+----------------------------+
-li | list item |
+| Tags       | Description                                                                                                                                                                               |
+| ---------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| h1         | Heading                                                                                                                                                                                   |
+| h2         | Subheading                                                                                                                                                                                |
+| section    | section is a thematic grouping of content. A general rule is that the section element is appropriate only if the element’s contents would be listed explicitly in the document’s outline. |
+| blockquote | represents a section that is quoted from another source.                                                                                                                                  |
+| q          | phrasing content quoted from another source.                                                                                                                                              |
+| img        | picture                                                                                                                                                                                   |
+| p          | paragraph                                                                                                                                                                                 |
+| figure     | The figure element represents some flow content. Typically referenced as a single unit from the main flow of the document.                                                                |
+| caption    | the title of the table that is its parent, if it has a parent and that is a table element.                                                                                                |
+| table      | The table element represents data with more than one dimension, in the form of a table. Tables must not be used as layout aids.                                                           |
+| th         | table head = name/category of the row or column                                                                                                                                           |
+| tr         | table row                                                                                                                                                                                 |
+| td         | table data = content in the table                                                                                                                                                         |
+| ul         | unordered list with dots                                                                                                                                                                  |
+| ol         | orderd list with #                                                                                                                                                                        |
+| li         | list item                                                                                                                                                                                 |
 
 
 !! **div** or **span** : they do not provide any semantics.
