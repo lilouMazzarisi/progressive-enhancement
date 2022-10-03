@@ -1,0 +1,15 @@
+p { 
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    letter-spacing: 0.05em;
+    font-size: 14px;
+    color: #002F15;
+}
+
+a { 
+    color: #002F15;
+    text-decoration: none;
+}
+
+a:hover{
+    color: lightsalmon;
+}

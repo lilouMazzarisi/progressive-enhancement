@@ -1,5 +1,4 @@
-# HTML is about semantics
-
+# 1. HTML is about semantics
 **What is "semantics" ?**
 Semantics marks up what a series of information is to be considered as. 
 - adds hierarchy and
@@ -22,7 +21,10 @@ GOLDEN RULE -> as little code as possible, but as much as necessary.
 Tags are used to indicate the semantic function of a portion of content in "blocks". Most html blocks work with an opening tag and a closing tag.
 
 *Syntax example :*
-*<p>This is a paragraph (hence the P letter).</p>*
+
+```html    
+<p>This is a paragraph (hence the P letter).</p>
+```
 | Tags       | Description                                                                                                                                                                               |
 | ---------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | h1         | Heading                                                                                                                                                                                   |
@@ -41,6 +43,48 @@ Tags are used to indicate the semantic function of a portion of content in "bloc
 | ul         | unordered list with dots                                                                                                                                                                  |
 | ol         | orderd list with #                                                                                                                                                                        |
 | li         | list item                                                                                                                                                                                 |
-
-
 !! **div** or **span** : they do not provide any semantics.
+
+**Attributes** 
+They are used to define the characteristics of the tags : they help describe the tags and its content in order to clarify the nature of it.
+
+ *Here is a one-line summary of the syntax of tags, attributes and values:*
+
+```html
+<tag attribute="value">content</tag>
+```
+
+# 2. CSS is to improve the visual look
+
+CSS (Cascading Style Sheet) is a computer language that allows you to control the visual aspect of your content. 
+
+For example: 
+| properties  | Description                                                                 |
+| ----------- | --------------------------------------------------------------------------- |
+| font-style  | sets whether a font should be styled with a normal, italic, or oblique face |
+| font-size   | sets the size of teh selected text                                          |
+| color       | sets the color of the selected text                                         |
+| line-height | sets the height of a line box                                               |
+
+Syntax
+
+```css
+selector {
+  property: value;
+  property: value;
+  /* This is a comment */
+  property: value;
+  ...;
+}
+```
+**!! IMPORTANT**
+
+* Each line must end with a `;`
+* You can declare as many properties as you want. You can even declare the same property twice. In this case, the last one will be taken into account (->  "cascading").
+* the stylized element is called "the selector". It is followed by a block containing one or more properties, enclosed in braces `{}`
+
+For the browser to take it into account, your CSS it must be linked to the HTML File :
+```html 
+<link rel="stylesheet" href="style.css">
+```
+### Concept 1: CSS selectors
