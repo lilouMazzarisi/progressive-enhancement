@@ -1,3 +1,5 @@
+[!Link to page](https://liloumazzarisi.github.io/progressive-enhancement/)
+
 # 1. HTML is about semantics
 **What is "semantics" ?**
 Semantics marks up what a series of information is to be considered as. 
