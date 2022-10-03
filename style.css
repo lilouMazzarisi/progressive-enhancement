@@ -1,7 +1,17 @@
+/* 
+* {
+    margin: 0;
+    padding: 0;
+}
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
 body {
     width: 90%;
     margin: 5% 5% 0% 5%;
     background: linear-gradient(-10deg, rgb(239, 249, 243), rgb(0, 7, 20));
+    font-family: 'Open Sans', sans-serif;
     /*
     background-image: url(img/abstract-uv-ultraviolet-light-composition_23-2149243965.webp);
     background-repeat: no-repeat;
@@ -27,8 +37,7 @@ a:visited {
 }
 
 p {
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    letter-spacing: 0.5em;
+    letter-spacing: 0.1em;
     font-size: 14px;
     color: #000714;
 }
@@ -54,7 +63,8 @@ q {
     border-left: 3px dashed #BFBFBF;
 }
 
-header>h1 {
+header>h1,
+header>p {
     background-color: #FFFAA2;
 }
 
@@ -81,4 +91,16 @@ img {
     max-width: 300px;
     margin-left: 20px;
     margin-right: 50px;
+}
+
+.notification {
+    background: #BFBFBF;
+    padding: .5rem 1rem;
+    border: 3px solid #000714;
+    width: 250px;
+    font-weight: bold;
+    color: #000714;
+    top: 0;
+    position: absolute;
+    left: 70%;
 }
