@@ -28,31 +28,57 @@ a:visited {
 
 p {
     font-family: Georgia, 'Times New Roman', Times, serif;
-    letter-spacing: 0.05em;
+    letter-spacing: 0.5em;
     font-size: 14px;
     color: #000714;
 }
 
-blockquote {
-    max-width: 50%;
-    margin: 0% 25% 0% 25%;
-}
-
 q {
+    display: block;
+    max-width: 50%;
     font-size: 160%;
     background-color: rgba(250, 250, 250, 0.959);
     padding-left: 30px;
+    text-align: justify;
+    font-style: italic;
+    text-transform: capitalize;
     margin-top: 80px;
     margin-bottom: 80px;
-    text-align: justify;
 }
 
 .villagerQuote {
-    border-left: 3px solid #000714;
+    border-left: 3px dashed #000714;
 }
 
 .farmerQuote {
-    border-left: 3px solid #BFBFBF;
+    border-left: 3px dashed #BFBFBF;
 }
 
-header {}
+header>h1 {
+    background-color: #FFFAA2;
+}
+
+.good {
+    color: green;
+    text-transform: uppercase;
+}
+
+.bad {
+    color: red;
+    text-transform: uppercase;
+}
+
+tr:nth-child(odd) {
+    background-color: #f2f2f2;
+}
+
+td:first-child {
+    font-weight: 600;
+}
+
+img {
+    float: left;
+    max-width: 300px;
+    margin-left: 20px;
+    margin-right: 50px;
+}
