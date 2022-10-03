@@ -10,7 +10,7 @@
 body {
     width: 90%;
     margin: 5% 5% 0% 5%;
-    background: linear-gradient(-10deg, rgb(239, 249, 243), rgb(0, 7, 20));
+    background: linear-gradient(135deg, rgb(54, 76, 96), rgb(219, 220, 221));
     font-family: 'Open Sans', sans-serif;
     /*
     background-image: url(img/abstract-uv-ultraviolet-light-composition_23-2149243965.webp);
@@ -22,6 +22,7 @@ body {
 
 a {
     color: #000714;
+    background-color: #FFFAA2;
     text-shadow: 1px 1px 5px #BFBFBF;
     text-decoration: none;
 }
@@ -42,7 +43,8 @@ p {
     color: #000714;
 }
 
-q {
+q,
+blockquote {
     display: block;
     max-width: 50%;
     font-size: 160%;
@@ -51,8 +53,7 @@ q {
     text-align: justify;
     font-style: italic;
     text-transform: capitalize;
-    margin-top: 80px;
-    margin-bottom: 80px;
+    margin: 0px 80px 80px 0px;
 }
 
 .villagerQuote {
@@ -78,12 +79,21 @@ header>p {
     text-transform: uppercase;
 }
 
+table {
+    text-align: center;
+    width: 100%;
+}
+
 tr:nth-child(odd) {
     background-color: #f2f2f2;
 }
 
 td:first-child {
     font-weight: 600;
+}
+
+div>p {
+    float: right;
 }
 
 img {
@@ -93,14 +103,18 @@ img {
     margin-right: 50px;
 }
 
+.conclusionStory {
+    margin-top: 80px;
+}
+
 .notification {
     background: #BFBFBF;
     padding: .5rem 1rem;
-    border: 3px solid #000714;
+    border: 3px solid #FFFAA2;
     width: 250px;
     font-weight: bold;
-    color: #000714;
-    top: 0;
-    position: absolute;
-    left: 70%;
+    text-align: center;
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
 }
