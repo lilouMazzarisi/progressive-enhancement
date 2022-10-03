@@ -88,3 +88,16 @@ For the browser to take it into account, your CSS it must be linked to the HTML 
 <link rel="stylesheet" href="style.css">
 ```
 ### Concept 1: CSS selectors
+CSS selectors allow you to select in your html the content to be stylized via the tag containing it.
+
+### Concept 2: block model
+All tags are rendered visually as a "block". This is called the box model. Each block includes margin, padding border properties.
+<br>
+![The bloc](css-block.png) 
+
+You can control the dimensions and spacing of this block:
+
+* width/ height : width and height dimensions
+* Border: controls the border. For example: border:1px solid #FF0000; creates an edge made of a solid red line #FF0000 and 1px thick
+* padding: the space between the content of the block and its outline (the border). The padding "inflates" the block.
+* Margin: the space around the block, outside it. The margin distances the block from its surroundings. You should know that these sometimes collapse but for now you don't have to worry too much about it, just know it exists.
